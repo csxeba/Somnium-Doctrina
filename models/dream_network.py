@@ -4,7 +4,7 @@ import warnings
 from models import vae, rnn
 import numpy as np
 from keras.callbacks import EarlyStopping, History
-import utils
+import utils  # TODO: I'm missing this module
 
 
 class DreamerNetwork:
